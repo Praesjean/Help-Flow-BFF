@@ -1,0 +1,30 @@
+{
+  "name": "bff",
+  "version": "1.0.0",
+  "description": "Backend for Frontend do sistema Help Flow",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test:coverage": "jest --coverage --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.21.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "helmet": "^8.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "swagger-jsdoc": "6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.3.1"
+  }
+}
